@@ -19,7 +19,7 @@ app.get("/trains",(req,res)=>{
 
    
 
-axios.get('https://api.railwayapi.com/v2/between/source/vskp/dest/bza/date/25-05-2019/apikey/c9r9oj4pfa/')
+axios.get('https://api.railwayapi.com/v2/between/source/vskp/dest/bza/date/25-05-2019/apikey/...yourapikey.../')
   .then(response => {
    
    // console.log(response.data);
